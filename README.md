@@ -134,9 +134,74 @@ Key aspects include:
 
 
 
+---
 
 
 
+# Types of Requirements
+
+## Functional Requirements
+These are the features and functionalities that the system must support:
+
+1. Hotel Management Service
+    - Allow hotel managers/owners to manage hotel information, including room availability, pricing, and promotions.
+    - Provide an API for hotel managers to update hotel-related data.
+    - Synchronize updates between the master and slave databases for consistency.
+
+2. Customer Service (Search + Booking)
+    - Enable customers to search for hotels using filters such as location, price, and amenities.
+    - Allow customers to book hotels and receive confirmations.
+    - Integrate with third-party payment services for seamless transactions.
+    - Provide recommendations and offers based on the user's location and preferences.
+
+3. View Booking Service
+    - Display current and historical booking details for both customers and managers.
+    - Send notifications to managers for new bookings and to customers for promotions or booking confirmations.
+    - Archive older booking data to ensure system scalability.
+
+4. Notification System
+    - Notify users about new offers, updates, and booking confirmations.
+    - Deliver notifications efficiently using messaging queues and Kafka.
+
+5. Data Storage and Archival
+    - Store search and booking data in ElasticSearch for faster retrieval.
+    - Archive older booking data in Cassandra to manage database growth and optimize query times.
+
+
+## Non-functional Requirements
+
+These define the quality attributes and operational capabilities of the system:
+
+1. Performance
+    - Handle high volumes of user traffic without delays or interruptions.
+    - Optimize search and booking responses using caching systems like Redis and ElasticSearch.
+
+2. Scalability
+    - Use a microservices architecture to allow independent scaling of services like search, booking, and notifications.
+    - Employ a CDN to distribute content geographically and reduce server load.
+
+3. Reliability
+    - Ensure system availability through a load balancer to distribute traffic across multiple servers.
+    - Use master-slave database architecture to maintain data consistency and backup.
+
+4. Data Consistency
+    - Synchronize updates between master and slave databases.
+    - Ensure real-time updates to customers and managers through Kafka messaging queues.
+
+5. Security
+    - Secure customer and payment data during transactions.
+    - Authenticate access to manager and customer portals.
+
+6. Maintainability
+    - Modularize the system using microservices to make updates and maintenance easier.
+    - Use standardized APIs for interaction between services.
+
+7. Big Data Support
+    - Use Apache Streaming and Hadoop for Big Data analysis, enabling insights like customer segmentation and business trends.
+
+8. User Experience
+    - Minimize booking and search response times using Redis for caching.
+    - Provide real-time updates and notifications to enhance user satisfaction.
 
 
 
