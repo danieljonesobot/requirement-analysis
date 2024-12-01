@@ -206,3 +206,66 @@ These define the quality attributes and operational capabilities of the system:
 
 
 
+---
+
+
+# Acceptance Criteria
+Acceptance Criteria define the conditions that a feature or functionality must meet to be considered complete and accepted by stakeholders. These are critical in Requirement Analysis as they ensure alignment between stakeholders and the development team, setting clear expectations for deliverables.
+
+
+
+1. Importance of Acceptance Criteria:
+- Clear Scope Definition: Acceptance criteria eliminate ambiguity by providing specific requirements for feature completion, ensuring the team understands what needs to be built.
+
+- Alignment with Business Goals: They bridge the gap between technical implementation and business objectives, ensuring the product delivers value to users and stakeholders.
+
+- Improved Testing and Validation: Serve as a foundation for creating test cases, helping QA teams verify that the feature functions as expected.
+
+- Facilitate Communication:Provide a shared language between technical and non-technical stakeholders, enhancing collaboration.
+
+- Reduced Rework:Clear criteria minimize misunderstandings and misaligned expectations, reducing the chances of rework or feature changes later in the development process.
+
+- Informed Decision-Making: Help product managers and stakeholders decide whether a feature meets the desired standards for release.
+
+
+
+
+2. Example of Acceptance Criteria for a Checkout Feature in the Booking Management System
+Feature: Hotel Booking Checkout
+Acceptance Criteria:
+
+- Payment Processing: 
+    - The system must support multiple payment methods (e.g., credit cards, debit cards, PayPal).
+    - Payment should be processed securely through a third-party payment gateway.
+    - An error message must be displayed for failed transactions with reasons (e.g., insufficient funds, invalid card).
+
+
+- Invoice Generation:
+    - A digital invoice must be generated immediately after payment confirmation.
+    - The invoice should include booking details (e.g., hotel name, booking ID, check-in and check-out dates, total cost).
+
+
+- Booking Confirmation:
+    - After a successful payment, the system must send a confirmation email to the user with booking details.
+    - A notification must also be sent to the hotel manager about the booking.
+
+
+- Cart Functionality:
+    - Users should be able to review their selected room(s), pricing, and applicable taxes before confirming the payment.
+    - Users can modify or cancel items in the cart before final checkout.
+
+
+- Validation:
+    - All mandatory fields (e.g., payment details, guest information) must be validated before proceeding.
+    - The system must prevent overbooking by checking room availability in real-time before completing the transaction.
+
+
+- Timeout Handling:
+    - If the user is inactive for more than 15 minutes on the checkout page, the system must display a timeout message and release the selected room for others.
+
+
+- Responsiveness:
+- The checkout feature must function seamlessly across web and mobile platforms.
+
+
+By defining acceptance criteria, the development team can clearly understand the definition of done for the checkout feature, reducing ambiguity and ensuring stakeholder satisfaction.
