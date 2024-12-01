@@ -209,6 +209,16 @@ These define the quality attributes and operational capabilities of the system:
 ---
 
 
+# Use Case Diagrams
+
+
+
+
+
+
+---
+
+
 # Acceptance Criteria
 Acceptance Criteria define the conditions that a feature or functionality must meet to be considered complete and accepted by stakeholders. These are critical in Requirement Analysis as they ensure alignment between stakeholders and the development team, setting clear expectations for deliverables.
 
