@@ -210,13 +210,88 @@ These define the quality attributes and operational capabilities of the system:
 
 
 # Use Case Diagrams
+A Use Case Diagram is a visual representation in Unified Modeling Language (UML) used to illustrate the interactions between users (actors) and a system. It focuses on the functional requirements of a system by showing how users will interact with it to achieve specific goals, represented as use cases.
 
+Key Components of Use Case Diagrams:
+1. Actors:
+- Represent users or external entities interacting with the system (e.g., customers, administrators, or external systems).
+
+2. Use Cases:
+- Represent the specific functionalities or tasks the system performs (e.g., “Book a Room” or “Process Payment”).
+
+3. System Boundary:
+- Defines the scope of the system, showing what is inside and outside the system's responsibilities.
+
+4. Relationships:
+- Associations: Lines connecting actors to use cases they interact with.
+- Generalization: Hierarchical relationships between actors or use cases (e.g., a "Registered User" is a specialized type of "User").
+- Include: Indicates a use case is part of another use case.
+- Extend: Indicates a use case optionally enhances another use case.
+
+
+Benefits of Use Case Diagrams
+1. Simplifies Requirements Communication:
+
+- Provides a clear and straightforward way to communicate functional requirements to stakeholders, ensuring all parties understand system behavior.
+
+
+2. Defines System Scope:
+
+- Helps identify the boundaries of the system, clarifying what functionalities are within or outside the scope.
+
+
+3. Improves Stakeholder Collaboration:
+
+- Promotes discussion and alignment among stakeholders by visually representing their interactions with the system.
+
+
+4. Facilitates Development:
+
+- Guides developers by providing a high-level understanding of the system's functionality and interactions.
+
+
+5. Supports Testing:
+
+- Serves as a basis for identifying test scenarios and cases, ensuring each use case is verified.
+
+
+6. Encourages Modular Design:
+
+- Highlights distinct functionalities that can be developed as independent modules, fostering modular and reusable system architecture.
+
+
+7. Enhances Problem Identification:
+
+- Reveals missing functionalities, unnecessary features, or unclear interactions during the design phase.
+
+
+
+
+Example of Use Case Diagram:
+For a Hotel Booking System, a Use Case Diagram might include:
+
+- Actors:
+    - Customer
+    - Hotel Manager
+    - Payment Gateway
+
+- Use Cases:
+    - Search for Hotels
+    - Book a Hotel Room
+    - Process Payment
+    - Manage Hotel Listings
+    - View Booking History
+    - Send Notifications
 
 
 
 
 
 ---
+
+
+
+
 
 
 # Acceptance Criteria
