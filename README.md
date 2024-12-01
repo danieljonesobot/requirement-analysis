@@ -13,19 +13,8 @@ This project simulates a real-world development scenario, emphasizing clarity, p
 
 Requirement Analysis is a critical phase in the Software Development Lifecycle (SDLC) that involves understanding, documenting, and managing the needs and expectations of stakeholders for a software system. This process ensures that the software being developed meets the functional and non-functional requirements of the users and aligns with business goals.
 
-
-
-
-Key activities in Requirement Analysis include:
-
-- Gathering Requirements: Collecting needs from stakeholders through interviews, surveys, observation, and documentation reviews.
-- Analyzing Requirements: Evaluating the feasibility, clarity, and consistency of the requirements.
-- Documenting Requirements: Creating clear and structured documentation, such as Software Requirements Specifications (SRS).
-- Validating Requirements: Ensuring that requirements are complete, achievable, and meet stakeholder expectations.
-- Managing Requirements: Tracking changes and ensuring alignment with project goals.
-
-
 ---
+
 
 
 # Importance of Requirement Analysis in SDLC
