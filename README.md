@@ -267,8 +267,7 @@ Benefits of Use Case Diagrams
 
 
 
-Example of Use Case Diagram:
-For a Hotel Booking System, a Use Case Diagram might include:
+Use Case Diagram For a Hotel Booking System:
 
 - Actors:
     - Customer
@@ -284,6 +283,11 @@ For a Hotel Booking System, a Use Case Diagram might include:
     - Send Notifications
 
 
+
+
+
+
+![Use case diagram](https://res.cloudinary.com/djmrrgdtu/image/upload/v1733343670/alx-booking-uc_rr86hb.png)
 
 
 
